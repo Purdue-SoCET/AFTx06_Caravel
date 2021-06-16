@@ -31,9 +31,9 @@ set ::env(VERILOG_FILES) "\
 
 ## Clock configurations
 set ::env(CLOCK_PORT) "user_clock2"
-set ::env(CLOCK_NET) "mprj.clk"
+set ::env(CLOCK_NET) "top_level_bASIC.clk"
 
-set ::env(CLOCK_PERIOD) "10"
+set ::env(CLOCK_PERIOD) "20" ; #raghu changed this to 20
 
 ## Internal Macros
 ### Macro Placement
@@ -42,17 +42,15 @@ set ::env(MACRO_PLACEMENT_CFG) $script_dir/macro.cfg
 ### Black-box verilog and views
 set ::env(VERILOG_FILES_BLACKBOX) "\
 	$script_dir/../../caravel/verilog/rtl/defines.v \
-	$script_dir/../../verilog/rtl/user_proj_example.v"
+	$script_dir/../../verilog/rtl/top_level_bASIC.v"
+
+
 
 set ::env(EXTRA_LEFS) "\
-	$script_dir/../../lef/user_proj_example.lef"
+	$script_dir/../../lef/top_level_bASIC.lef"
 
-set ::env(EXTRA_GDS_FILES) "\
-	$script_dir/../../gds/user_proj_example.gds"
+set ::env(EXTRA_GDS_FILES) "$script_dir/../../gds/top_level_bASIC.gds"
 
-set ::env(GLB_RT_MAXLAYER) 5
-
-set ::env(FP_PDN_CHECK_NODES) 0
 
 # The following is because there are no std cells in the example wrapper project.
 set ::env(SYNTH_TOP_LEVEL) 1
@@ -67,3 +65,12 @@ set ::env(DIODE_INSERTION_STRATEGY) 0
 set ::env(FILL_INSERTION) 0
 set ::env(TAP_DECAP_INSERTION) 0
 set ::env(CLOCK_TREE_SYNTH) 0
+
+##Extra settings
+#set ::env(GLB_RT_ALLOW_CONGESTION) "1"
+#set ::env(GLB_RT_OBS)  "li1  0     0     2920 3520"
+
+set ::env(GLB_RT_MAXLAYER) 5
+set ::env(FP_PDN_CHECK_NODES) 0
+set ::env(RUN_KLAYOUT_XOR) 0
+set ::env(RUN_KLAYOUT_DRC) 0
