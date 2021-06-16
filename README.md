@@ -19,7 +19,7 @@
 ## Table of Contents
 
 * [Introduction](#Introduction)
-* [Purpose](#Purpose)
+* [Motivation](#Motivation)
 * [Features](#Features)
 * [Building](#Building)
 * [Prerequisites](#Prerequisites)
@@ -31,13 +31,13 @@
 ## Introduction
 The "AFTx06_Private" repository is the collection of files for the AFTx06 RISC-V core that was designed by the Purdue System-on-Chip Extension Technology (**SoCET**) team. As an undergraduate team, our goal is to provide students with an educational hands on experience for system-on-chip (**SoC**) design with industry quality SoC design flows. Within the greater SoCET team, there are six well defined sub-teams: Digital Design, Verification, Software, PCB Design, Physical and Analog Design, and Design Flow. Within the six sub-teams, there are groups of students working on peripheral components or small projects, for example of which, many students develop a project within SoCET for their senior design projects. The results of their experiences are reflected within the design for the AFTx06. Being the sixth iteration of the Purdue SoCET team's SoC design, the AFTx06 improves upon our previous design, the AFTx05. The AFTx06 improves upon the previous iteration through additional features such as an added M-Extension, Local and External Interrupt Controller, redesigned Master MUX that now includes Formal Verification, as well as SPI and I2C capabilities. A complete list of the included modules/peripherals is given in the [Features](#Features) section.
 
-## Purpose
+## Motivation
 
 As undergraduates, members of the Purdue SoCET team are able to engage in RTL, Physical, and PCB design; chip bringup; verification methods; and various EDA tools and software suites. This allows a student through SoCET to engage with the entire life cycle of chip design even as an undergraduate with any degree of prior experience. The AFTx06 thereby represents the combined efforts of the team and its consultants through multiple years of research and design in developing a successful RISC-V core that can be used for low power IOT devices, edge node computation, or machine learning applications thanks to the implementation of a SparCE Architecture within our design.
 
-The AFTx06 implements unique features and abilities that are not commonly found on other SoC devices. Arguably the most intruiging feature is the SparCE Machine Learning Architecture, an on-chip machine learning architecture to utilize sparsity in convolution arithmetic, allowing extraneous instructions to be skipped. More details on the SparCE architecture is given in the SparCE Machine Learning Architecture section found under Features, below. The AFTx06 also includes novel and experimental designs such as Non-Symmetric CMOS Implementation of Polymorphic Logic, Layout for Electromigration Test Structures, JTAG interface, Phase-Locked Loop, and Platform-Level Interrupt Controller. Many features are experimental designs put forth by Purdue University professors and implemented by the SoCET team. Further details on these can be found in sections below of the same names.
-
 ## Features
+
+The AFTx06 implements unique features and abilities that are not commonly found on other SoC devices. Arguably the most intruiging feature is the SparCE Machine Learning Architecture, an on-chip machine learning architecture to utilize sparsity in convolution arithmetic, allowing extraneous instructions to be skipped. More details on the SparCE architecture is given in the SparCE Machine Learning Architecture section found under Features, below. The AFTx06 also includes novel and experimental designs such as Non-Symmetric CMOS Implementation of Polymorphic Logic, Layout for Electromigration Test Structures, JTAG interface, Phase-Locked Loop, and Platform-Level Interrupt Controller. Many features are experimental designs put forth by Purdue University professors and implemented by the SoCET team. Further details on these can be found in sections below of the same names.
 
 <img src="https://user-images.githubusercontent.com/42724680/122116868-bf92a700-cdeb-11eb-8de6-ce6737e1a2ee.png" align="center" width="700" height="auto">
 
