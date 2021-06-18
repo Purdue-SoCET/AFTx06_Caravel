@@ -1,18 +1,4 @@
 # AFTx06_Private
-- [X] Purpose
-- [X] Memory Map
-- [X] Add in Summary Sections
-- [X] Future Work
-- [X] Emphasis on Undergraduate Team
-- [X] Wording/Check
-- [ ] Add layout image
-- [ ] Finish synthesizing commands section
-- [ ] Update Block Diagram
-
-* Q for John: Is there off or on chip SRAM? 
-* Q for John: Does the Non-symmetric CMOS implementation still exist, as part of the workaround, as it was based off of the 90nm FDSOI available?
-* Q for John: Under acknowledgements, do we list Crane, MIT Labs, etc.? 
-* Q for John: Keep in Layout for Electromagnetic Structures, Phase locked loop, etc.?
 
 <img src="https://user-images.githubusercontent.com/42724680/121823530-63087e00-cc6b-11eb-951c-e7f11c98dd4a.png" align="center" width="675" height="auto">
 
