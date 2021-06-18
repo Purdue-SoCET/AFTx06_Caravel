@@ -21,9 +21,11 @@ The "AFTx06_Private" repository is the collection of files for the AFTx06 RISC-V
 
 As undergraduates, members of the Purdue SoCET team are able to engage in RTL, Physical, and PCB design; chip bringup; verification methods; and various EDA tools and software suites. This allows a student through SoCET to engage with the entire life cycle of chip design even as an undergraduate with any degree of prior experience. The AFTx06 thereby represents the combined efforts of the team and its consultants through multiple years of research and design in developing a successful RISC-V core that can be used for low power IOT devices, edge node computation, or machine learning applications thanks to the implementation of a SparCE Architecture within our design.
 
+RVIMF Instruction Set with Multiplication and Division
+
 ## Features
 
-The AFTx06 implements unique features and abilities that are not commonly found on other SoC devices. Arguably the most intruiging feature is the SparCE Machine Learning Architecture, an on-chip machine learning architecture to utilize sparsity in convolution arithmetic, allowing extraneous instructions to be skipped. More details on the SparCE architecture is given in the SparCE Machine Learning Architecture section found under Features, below. The AFTx06 also includes novel and experimental designs such as Non-Symmetric CMOS Implementation of Polymorphic Logic, Layout for Electromigration Test Structures, JTAG interface, Phase-Locked Loop, and Platform-Level Interrupt Controller. Many features are experimental designs put forth by Purdue University professors and implemented by the SoCET team. Further details on these can be found in sections below of the same names.
+The AFTx06 implements an RVIMF Instruction Set, with Multiplication and Division capabilities, as well as other unique features and abilities that are not commonly found on other SoC devices. Arguably the most intruiging feature is the SparCE Machine Learning Architecture, an on-chip machine learning architecture to utilize sparsity in convolution arithmetic, allowing extraneous instructions to be skipped. More details on the SparCE architecture is given in the SparCE Machine Learning Architecture section found under Features, below. The AFTx06 also includes novel and experimental designs such as Non-Symmetric CMOS Implementation of Polymorphic Logic, Layout for Electromigration Test Structures, JTAG interface, Phase-Locked Loop, and Platform-Level Interrupt Controller. Many features are experimental designs put forth by Purdue University professors and implemented by the SoCET team. Further details on these can be found in sections below of the same names.
 
 <img src="https://user-images.githubusercontent.com/42724680/122116868-bf92a700-cdeb-11eb-8de6-ce6737e1a2ee.png" align="center" width="700" height="auto">
 
@@ -92,47 +94,6 @@ The design architecture of the SparCE module is shown in Fig. 3. The blocks with
 * The Sparsity Aware Skip Address (**SASA**) table is a cache-like block with associative memory structure which stores the information required to skip a region. Each entry contains the PC of the instruction prior to the skippable region, a field which stores the condition for the region to be skippable, and the number of instructions that can be skipped. 
 * The Pre-identify and Skip Redundancy Uni (**PSRU**) uses the SASA table to identify and skip redundant instruction regions. For each instruction, we check if its PC contains an entry in the SASA table. An entry in the SASA table indicates that the instruction following the current instruction is the start of a potentially skippable region. In this case, the PSRU checks the SpRF to identify if the registers indicated in the SASA table entry are currently zero. If so, it increments the PC to the end of the redundant instruction sequence, thereby skipping instructions. If not, the pipeline proceeds to execute instructions in program order. 
 * The Control Flow Instruction Detector (**CFID**) decodes the instruction in the decode stage rather than waiting for the instruction to be decoded in the execute stage. This allows control flow instructions to have higher precedence than skipping.
-
-### Non-symmetric CMOS Implementation of Polymorphic Logic
-
-As a solution to protect intellectual property from counterfeit and trojan injections, SoCET students Isaiah Grace, John Martinuk, and Brian Graves created a CMOS, non-symmetric implementation of Dr. Appenzeller's polymorphic logic concept that has been used within the AFTx06. A gate was made to function as a NAND gate or a NOR gate depending on the voltages applied to the power rails. A seperate gate was designed to behave as an XOR gate or as a Buffer.
-
-Specifications for the Polymorphic NAND/NOR Gate:
-* Power rails of the gate, Vxx and Vyy, operate at 0V and 1.2V
-* Input pins, A and B, have a range of 0V - 1.2V
-* Output pin X has a range of 0V - 1.2V
-* When Vxx is 1.2V and Vyy is 0V, the gate takes inputs A and B and yields a NAND output, X
-* When Vxx is 0V and Vyy is 1.2V, the gate takes inputs A and B and yields a NOR output, X
-
-<img src="https://user-images.githubusercontent.com/42724680/122130793-c9250a80-cdfd-11eb-85b1-9539ea0b40d3.PNG" align="center" width="400" height="auto">
-
-*Figure 4: Polymorphic NAND/NOR Schematic*
-
-Specifications for the Polymorphic XOR/BUF Gate:
-* Power rails of the gate, Vx and Vy, operate in a range of 0V - 1.2V.
-* Input pins, A and B, have a range of 0V - 1.2V.
-* Output pin X has a range of 0V - 1.2V. 
-* When Vx is at 1.2V and Vy is at 0V, the gate takes inputs A and B and yields an XOR output.
-* When Vx is at 0V and Vy is at 1.2V, the gate acts as a buffer.
-
-
-<img src="https://user-images.githubusercontent.com/42724680/122130800-cc1ffb00-cdfd-11eb-896b-01192c69e8ce.PNG" align="center" width="400" height="auto">
-
-*Figure 5: Polymorphic XOR/BUF Schematic*
-
-These cells were used to create a 32-bit CRC module with a configurable polynomial. This implementation was chosen to showcase the polymorphic cells’ ability to camouflage the CRC polynomial being used. The APB slave interface can also provide inputs, and read outputs, which go to/come from a single NAND/NOR cell or a single XOR/BUF cell to verify the cells’ functionality in a small scale digital design.
-
-### JTAG Interface
-
-JTAG is an extensible serial standard used for board-level IC testing which is used on the AFTx06. Common extensions include support for device programming, memory inspection and software debugging, all of which are found on most commercial microcontrollers. The implementation of JTAG included the JTAG Test Access Port (**TAP**), the mandatory instructions and a subset of optional instructions from the IEEE 1149.1 standard, and a custom extension to interact with the AHB-Lite bus. The JTAG module is comprised of 3 major components: The aforementioned TAP, the AHB Access Point (**AHB AP**) created to allow interfacing with the on-chip AHB bus, and the Clock Domain Crossing (**CDC**) modules designed to transfer data between the JTAG clock domain and the SoC clock domain.
-
-<img src="https://user-images.githubusercontent.com/42724680/122130822-d3df9f80-cdfd-11eb-8ae3-47f1d6ce55e1.PNG" align="center" width="400" height="auto">
-
-*Figure 6: Top Level Diagram of JTAG Interface*
-
-The CDC portion consisted of 2 CDC FIFO modules based off of the Sunburst CDC design [3], and a simple synchronizer for capturing the error flag from the AHB AP. 
-
-The AHB AP uses a 37-bit instruction in order to perform read and write operations on the SoC bus. The instruction format was based off of a JTAG debugger design from Texas Instruments [4]. A normal read/write operation would require 2 such instructions: the first to set the target address, and the second to set the target data and start the bus request. To better accommodate device programming, an optimization allowing an auto-increment after each write was included, which removed the addressing step in consecutive read or write operations. 
 
 ### Platform-Level Interrupt Controller
 
