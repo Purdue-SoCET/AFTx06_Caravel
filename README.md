@@ -99,7 +99,7 @@ The Platform-Level Interrupt Controller (**PLIC**) is a standard interrupt manag
 
 <img src="https://user-images.githubusercontent.com/42724680/122130835-d93cea00-cdfd-11eb-82df-ff332b55d8e5.PNG" align="center" width="400" height="auto">
 
-*Figure 7: Top Level Communications Between PLIC, the External Modes, and the Processor*
+*Figure 4: Top Level Communications Between PLIC, the External Modes, and the Processor*
 
 The Interrupt request registers translate hardware interrupt requests into pulses to be sent to other components in the submodule. Register mask prevents masked interrupts from triggering an interrupt request. The interrupt enable register handles logic controlling which registers are masked; it handles status registers related to masking individual interrupts as well as interrupt masking when the disable low priority interrupts module is enabled. The interrupt pending and priority registers module handle registers controlling interrupt priorities as well as the interrupt pending registers. The interrupt priority registers indicate the priority of each hardware interrupt channel and the interrupt pending registers indicate which registers are in the queue to be serviced. The interrupt priority resolve register handles sending the highest priority interrupt index to the status registers for the CPU to read.
 
