@@ -2,6 +2,8 @@
 
 <img src="https://user-images.githubusercontent.com/42724680/121823530-63087e00-cc6b-11eb-951c-e7f11c98dd4a.png" align="center" width="675" height="auto">
 
+![user_project_wrapper placement def](https://user-images.githubusercontent.com/42724680/122632736-bf700100-d0a2-11eb-9041-073700daa85b.png)
+
 ## Table of Contents
 
 * [Introduction](#Introduction)
@@ -128,7 +130,9 @@ make user_project_wrapper
 
 ### Layout
 
-* ADD LAYOUT IMAGE
+![user_project_wrapper placement def](https://user-images.githubusercontent.com/42724680/122632736-bf700100-d0a2-11eb-9041-073700daa85b.png)
+
+*Figure 5: Placement Layout of the AFTx06*
 
 ## Future Work
 
