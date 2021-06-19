@@ -1,4 +1,4 @@
-# AFTx06_Private
+# AFTx06_Caravel
 
 <img src="https://user-images.githubusercontent.com/42724680/121823530-63087e00-cc6b-11eb-951c-e7f11c98dd4a.png" align="center" width="675" height="auto">
 
@@ -15,7 +15,7 @@
 * [License](#License)
 
 ## Introduction
-The "AFTx06_Private" repository is the collection of files for the AFTx06 RISC-V core that was designed by the Purdue System-on-Chip Extension Technology (**SoCET**) team. As an undergraduate team, our goal is to provide students with an educational hands on experience for system-on-chip (**SoC**) design with industry quality SoC design flows. Within the greater SoCET team, there are six well defined sub-teams: Digital Design, Verification, Software, PCB Design, Physical and Analog Design, and Design Flow. Within the six sub-teams, there are groups of students working on peripheral components or small projects, for example of which, many students develop a project within SoCET for their senior design projects. The results of their experiences are reflected within the design for the AFTx06. Being the sixth iteration of the Purdue SoCET team's SoC design, the AFTx06 improves upon our previous design, the AFTx05. The AFTx06 improves upon the previous iteration through additional features such as an added M-Extension, Local and External Interrupt Controller, redesigned Master MUX that now includes Formal Verification, as well as SPI and I2C capabilities. A complete list of the included modules/peripherals is given in the [Features](#Features) section.
+The "AFTx06_Caravel" repository is the collection of files for the AFTx06 RISC-V core that was designed by the Purdue System-on-Chip Extension Technology (**SoCET**) team. As an undergraduate team, our goal is to provide students with an educational hands on experience for system-on-chip (**SoC**) design with industry quality SoC design flows. Within the greater SoCET team, there are six well defined sub-teams: Digital Design, Verification, Software, PCB Design, Physical and Analog Design, and Design Flow. Within the six sub-teams, there are groups of students working on peripheral components or small projects, for example of which, many students develop a project within SoCET for their senior design projects. The results of their experiences are reflected within the design for the AFTx06. Being the sixth iteration of the Purdue SoCET team's SoC design, the AFTx06 improves upon our previous design, the AFTx05. The AFTx06 improves upon the previous iteration through additional features such as an added M-Extension, Local and External Interrupt Controller, redesigned Master MUX that now includes Formal Verification, as well as SPI and I2C capabilities. A complete list of the included modules/peripherals is given in the [Features](#Features) section.
 
 ## Motivation
 
