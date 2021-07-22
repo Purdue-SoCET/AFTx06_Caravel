@@ -12,7 +12,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 1350.190 3296.000 1350.470 3300.000 ;
+        RECT 1575.130 3296.000 1575.410 3300.000 ;
     END
   END MISO_bi
   PIN MISO_output_en_low
@@ -20,7 +20,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 810.150 3296.000 810.430 3300.000 ;
+        RECT 1124.790 3296.000 1125.070 3300.000 ;
     END
   END MISO_output_en_low
   PIN MOSI_bi
@@ -28,7 +28,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 2430.270 3296.000 2430.550 3300.000 ;
+        RECT 2474.890 3296.000 2475.170 3300.000 ;
     END
   END MOSI_bi
   PIN MOSI_output_en_low
@@ -36,7 +36,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 1890.230 3296.000 1890.510 3300.000 ;
+        RECT 2025.010 3296.000 2025.290 3300.000 ;
     END
   END MOSI_output_en_low
   PIN SCK_bi
@@ -44,7 +44,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 3033.520 2700.000 3034.120 ;
+        RECT 2696.000 3134.160 2700.000 3134.760 ;
     END
   END SCK_bi
   PIN SCK_output_en_low
@@ -52,7 +52,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 3139.600 2700.000 3140.200 ;
+        RECT 2696.000 3244.320 2700.000 3244.920 ;
     END
   END SCK_output_en_low
   PIN SCL_bi
@@ -60,7 +60,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 2607.840 2700.000 2608.440 ;
+        RECT 2696.000 2694.200 2700.000 2694.800 ;
     END
   END SCL_bi
   PIN SCL_output_en_low
@@ -68,7 +68,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 2713.920 2700.000 2714.520 ;
+        RECT 2696.000 2804.360 2700.000 2804.960 ;
     END
   END SCL_output_en_low
   PIN SDA_bi
@@ -76,7 +76,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 2395.000 2700.000 2395.600 ;
+        RECT 2696.000 2473.880 2700.000 2474.480 ;
     END
   END SDA_bi
   PIN SDA_output_en_low
@@ -84,7 +84,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 2501.080 2700.000 2501.680 ;
+        RECT 2696.000 2584.040 2700.000 2584.640 ;
     END
   END SDA_output_en_low
   PIN SS_bi
@@ -92,7 +92,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 2820.680 2700.000 2821.280 ;
+        RECT 2696.000 2913.840 2700.000 2914.440 ;
     END
   END SS_bi
   PIN SS_output_en_low
@@ -100,7 +100,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 2926.760 2700.000 2927.360 ;
+        RECT 2696.000 3024.000 2700.000 3024.600 ;
     END
   END SS_output_en_low
   PIN asyncrst_n
@@ -108,7 +108,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 265.920 2700.000 266.520 ;
+        RECT 2696.000 274.080 2700.000 274.680 ;
     END
   END asyncrst_n
   PIN clk_sel
@@ -116,7 +116,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 53.080 2700.000 53.680 ;
+        RECT 2696.000 54.440 2700.000 55.040 ;
     END
   END clk_sel
   PIN gpio_bidir_io[0]
@@ -124,7 +124,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 372.000 2700.000 372.600 ;
+        RECT 2696.000 384.240 2700.000 384.840 ;
     END
   END gpio_bidir_io[0]
   PIN gpio_bidir_io[1]
@@ -132,7 +132,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 584.840 2700.000 585.440 ;
+        RECT 2696.000 603.880 2700.000 604.480 ;
     END
   END gpio_bidir_io[1]
   PIN gpio_bidir_io[2]
@@ -140,7 +140,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 797.680 2700.000 798.280 ;
+        RECT 2696.000 824.200 2700.000 824.800 ;
     END
   END gpio_bidir_io[2]
   PIN gpio_bidir_io[3]
@@ -148,7 +148,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 1010.520 2700.000 1011.120 ;
+        RECT 2696.000 1043.840 2700.000 1044.440 ;
     END
   END gpio_bidir_io[3]
   PIN gpio_bidir_io[4]
@@ -156,7 +156,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 1224.040 2700.000 1224.640 ;
+        RECT 2696.000 1264.160 2700.000 1264.760 ;
     END
   END gpio_bidir_io[4]
   PIN gpio_bidir_io[5]
@@ -164,7 +164,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 1436.880 2700.000 1437.480 ;
+        RECT 2696.000 1483.800 2700.000 1484.400 ;
     END
   END gpio_bidir_io[5]
   PIN gpio_bidir_io[6]
@@ -172,7 +172,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 1649.720 2700.000 1650.320 ;
+        RECT 2696.000 1704.120 2700.000 1704.720 ;
     END
   END gpio_bidir_io[6]
   PIN gpio_bidir_io[7]
@@ -180,7 +180,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 1862.560 2700.000 1863.160 ;
+        RECT 2696.000 1924.440 2700.000 1925.040 ;
     END
   END gpio_bidir_io[7]
   PIN gpio_output_en_low[0]
@@ -188,7 +188,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 478.760 2700.000 479.360 ;
+        RECT 2696.000 494.400 2700.000 495.000 ;
     END
   END gpio_output_en_low[0]
   PIN gpio_output_en_low[1]
@@ -196,7 +196,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 691.600 2700.000 692.200 ;
+        RECT 2696.000 714.040 2700.000 714.640 ;
     END
   END gpio_output_en_low[1]
   PIN gpio_output_en_low[2]
@@ -204,7 +204,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 904.440 2700.000 905.040 ;
+        RECT 2696.000 934.360 2700.000 934.960 ;
     END
   END gpio_output_en_low[2]
   PIN gpio_output_en_low[3]
@@ -212,7 +212,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 1117.280 2700.000 1117.880 ;
+        RECT 2696.000 1154.000 2700.000 1154.600 ;
     END
   END gpio_output_en_low[3]
   PIN gpio_output_en_low[4]
@@ -220,7 +220,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 1330.120 2700.000 1330.720 ;
+        RECT 2696.000 1374.320 2700.000 1374.920 ;
     END
   END gpio_output_en_low[4]
   PIN gpio_output_en_low[5]
@@ -228,7 +228,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 1542.960 2700.000 1543.560 ;
+        RECT 2696.000 1593.960 2700.000 1594.560 ;
     END
   END gpio_output_en_low[5]
   PIN gpio_output_en_low[6]
@@ -236,7 +236,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 1755.800 2700.000 1756.400 ;
+        RECT 2696.000 1814.280 2700.000 1814.880 ;
     END
   END gpio_output_en_low[6]
   PIN gpio_output_en_low[7]
@@ -244,7 +244,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 1968.640 2700.000 1969.240 ;
+        RECT 2696.000 2033.920 2700.000 2034.520 ;
     END
   END gpio_output_en_low[7]
   PIN irq[0]
@@ -252,23 +252,23 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 270.110 3296.000 270.390 3300.000 ;
+        RECT 225.030 3296.000 225.310 3300.000 ;
     END
   END irq[0]
   PIN irq[1]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 2696.000 3246.360 2700.000 3246.960 ;
+      LAYER met2 ;
+        RECT 2694.310 0.000 2694.590 4.000 ;
     END
   END irq[1]
   PIN irq[2]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 2694.310 0.000 2694.590 4.000 ;
+      LAYER met3 ;
+        RECT 0.000 1649.720 4.000 1650.320 ;
     END
   END irq[2]
   PIN la_data_out[0]
@@ -1300,7 +1300,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 2075.400 2700.000 2076.000 ;
+        RECT 2696.000 2144.080 2700.000 2144.680 ;
     END
   END pwm_w_data_0
   PIN timer_bidir_0
@@ -1308,7 +1308,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 2181.480 2700.000 2182.080 ;
+        RECT 2696.000 2254.240 2700.000 2254.840 ;
     END
   END timer_bidir_0
   PIN timer_output_en_low
@@ -1316,15 +1316,15 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 2288.240 2700.000 2288.840 ;
+        RECT 2696.000 2364.400 2700.000 2365.000 ;
     END
   END timer_output_en_low
   PIN uart_debug_rx
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 1649.720 4.000 1650.320 ;
+      LAYER met2 ;
+        RECT 674.910 3296.000 675.190 3300.000 ;
     END
   END uart_debug_rx
   PIN uart_debug_tx
@@ -1332,7 +1332,7 @@ MACRO top_level_bASIC
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 2696.000 159.160 2700.000 159.760 ;
+        RECT 2696.000 163.920 2700.000 164.520 ;
     END
   END uart_debug_tx
   PIN user_clock2
@@ -2196,7 +2196,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2632.240 3159.510 2633.840 3288.720 ;
+        RECT 2632.240 10.640 2633.840 3288.720 ;
     END
   END vccd1
   PIN vccd1
@@ -2204,7 +2204,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2478.640 3159.510 2480.240 3288.720 ;
+        RECT 2478.640 3174.470 2480.240 3288.720 ;
     END
   END vccd1
   PIN vccd1
@@ -2212,7 +2212,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2325.040 3159.510 2326.640 3288.720 ;
+        RECT 2325.040 3174.470 2326.640 3288.720 ;
     END
   END vccd1
   PIN vccd1
@@ -2220,7 +2220,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2171.440 3159.510 2173.040 3288.720 ;
+        RECT 2171.440 3174.470 2173.040 3288.720 ;
     END
   END vccd1
   PIN vccd1
@@ -2228,7 +2228,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2017.840 3159.510 2019.440 3288.720 ;
+        RECT 2017.840 3174.470 2019.440 3288.720 ;
     END
   END vccd1
   PIN vccd1
@@ -2340,7 +2340,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2632.240 2646.370 2633.840 2738.410 ;
+        RECT 2478.640 2661.330 2480.240 2738.410 ;
     END
   END vccd1
   PIN vccd1
@@ -2348,7 +2348,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2478.640 2646.370 2480.240 2738.410 ;
+        RECT 2325.040 2661.330 2326.640 2738.410 ;
     END
   END vccd1
   PIN vccd1
@@ -2356,7 +2356,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2325.040 2646.370 2326.640 2738.410 ;
+        RECT 2171.440 2661.330 2173.040 2738.410 ;
     END
   END vccd1
   PIN vccd1
@@ -2364,7 +2364,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2171.440 2646.370 2173.040 2738.410 ;
+        RECT 2017.840 2661.330 2019.440 2738.410 ;
     END
   END vccd1
   PIN vccd1
@@ -2372,7 +2372,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2017.840 2646.370 2019.440 2738.410 ;
+        RECT 2478.640 2148.190 2480.240 2225.270 ;
     END
   END vccd1
   PIN vccd1
@@ -2380,7 +2380,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2632.240 2133.230 2633.840 2225.270 ;
+        RECT 2325.040 2148.190 2326.640 2225.270 ;
     END
   END vccd1
   PIN vccd1
@@ -2388,7 +2388,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2478.640 2133.230 2480.240 2225.270 ;
+        RECT 2171.440 2148.190 2173.040 2225.270 ;
     END
   END vccd1
   PIN vccd1
@@ -2396,7 +2396,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2325.040 2133.230 2326.640 2225.270 ;
+        RECT 2017.840 2148.190 2019.440 2225.270 ;
     END
   END vccd1
   PIN vccd1
@@ -2404,7 +2404,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2171.440 2133.230 2173.040 2225.270 ;
+        RECT 2478.640 1635.050 2480.240 1712.130 ;
     END
   END vccd1
   PIN vccd1
@@ -2412,7 +2412,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2017.840 2133.230 2019.440 2225.270 ;
+        RECT 2325.040 1635.050 2326.640 1712.130 ;
     END
   END vccd1
   PIN vccd1
@@ -2420,7 +2420,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2632.240 1620.090 2633.840 1712.130 ;
+        RECT 2171.440 1635.050 2173.040 1712.130 ;
     END
   END vccd1
   PIN vccd1
@@ -2428,7 +2428,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2478.640 1620.090 2480.240 1712.130 ;
+        RECT 2017.840 1635.050 2019.440 1712.130 ;
     END
   END vccd1
   PIN vccd1
@@ -2436,7 +2436,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2325.040 1620.090 2326.640 1712.130 ;
+        RECT 2478.640 1121.910 2480.240 1198.990 ;
     END
   END vccd1
   PIN vccd1
@@ -2444,7 +2444,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2171.440 1620.090 2173.040 1712.130 ;
+        RECT 2325.040 1121.910 2326.640 1198.990 ;
     END
   END vccd1
   PIN vccd1
@@ -2452,7 +2452,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2017.840 1620.090 2019.440 1712.130 ;
+        RECT 2171.440 1121.910 2173.040 1198.990 ;
     END
   END vccd1
   PIN vccd1
@@ -2460,7 +2460,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2632.240 1106.950 2633.840 1198.990 ;
+        RECT 2017.840 1121.910 2019.440 1198.990 ;
     END
   END vccd1
   PIN vccd1
@@ -2468,7 +2468,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2478.640 1106.950 2480.240 1198.990 ;
+        RECT 2478.640 608.770 2480.240 685.850 ;
     END
   END vccd1
   PIN vccd1
@@ -2476,7 +2476,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2325.040 1106.950 2326.640 1198.990 ;
+        RECT 2325.040 608.770 2326.640 685.850 ;
     END
   END vccd1
   PIN vccd1
@@ -2484,7 +2484,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2171.440 1106.950 2173.040 1198.990 ;
+        RECT 2171.440 608.770 2173.040 685.850 ;
     END
   END vccd1
   PIN vccd1
@@ -2492,55 +2492,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2017.840 1106.950 2019.440 1198.990 ;
-    END
-  END vccd1
-  PIN vccd1
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER met4 ;
-        RECT 2632.240 593.810 2633.840 685.850 ;
-    END
-  END vccd1
-  PIN vccd1
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER met4 ;
-        RECT 2478.640 593.810 2480.240 685.850 ;
-    END
-  END vccd1
-  PIN vccd1
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER met4 ;
-        RECT 2325.040 593.810 2326.640 685.850 ;
-    END
-  END vccd1
-  PIN vccd1
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER met4 ;
-        RECT 2171.440 593.810 2173.040 685.850 ;
-    END
-  END vccd1
-  PIN vccd1
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER met4 ;
-        RECT 2017.840 593.810 2019.440 685.850 ;
-    END
-  END vccd1
-  PIN vccd1
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER met4 ;
-        RECT 2632.240 10.640 2633.840 172.710 ;
+        RECT 2017.840 608.770 2019.440 685.850 ;
     END
   END vccd1
   PIN vccd1
@@ -2580,7 +2532,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2555.440 3159.510 2557.040 3288.720 ;
+        RECT 2555.440 3174.470 2557.040 3288.720 ;
     END
   END vssd1
   PIN vssd1
@@ -2588,7 +2540,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2401.840 3159.510 2403.440 3288.720 ;
+        RECT 2401.840 3174.470 2403.440 3288.720 ;
     END
   END vssd1
   PIN vssd1
@@ -2596,7 +2548,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2248.240 3159.510 2249.840 3288.720 ;
+        RECT 2248.240 3174.470 2249.840 3288.720 ;
     END
   END vssd1
   PIN vssd1
@@ -2604,7 +2556,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2094.640 3159.510 2096.240 3288.720 ;
+        RECT 2094.640 3174.470 2096.240 3288.720 ;
     END
   END vssd1
   PIN vssd1
@@ -2612,7 +2564,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 1941.040 10.640 1942.640 3288.720 ;
+        RECT 1941.040 3174.470 1942.640 3288.720 ;
     END
   END vssd1
   PIN vssd1
@@ -2716,7 +2668,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2555.440 2646.370 2557.040 2738.410 ;
+        RECT 2555.440 2661.330 2557.040 2738.410 ;
     END
   END vssd1
   PIN vssd1
@@ -2724,7 +2676,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2401.840 2646.370 2403.440 2738.410 ;
+        RECT 2401.840 2661.330 2403.440 2738.410 ;
     END
   END vssd1
   PIN vssd1
@@ -2732,7 +2684,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2248.240 2646.370 2249.840 2738.410 ;
+        RECT 2248.240 2661.330 2249.840 2738.410 ;
     END
   END vssd1
   PIN vssd1
@@ -2740,7 +2692,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2094.640 2646.370 2096.240 2738.410 ;
+        RECT 2094.640 2661.330 2096.240 2738.410 ;
     END
   END vssd1
   PIN vssd1
@@ -2748,7 +2700,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2555.440 2133.230 2557.040 2225.270 ;
+        RECT 1941.040 2661.330 1942.640 2738.410 ;
     END
   END vssd1
   PIN vssd1
@@ -2756,7 +2708,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2401.840 2133.230 2403.440 2225.270 ;
+        RECT 2555.440 2148.190 2557.040 2225.270 ;
     END
   END vssd1
   PIN vssd1
@@ -2764,7 +2716,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2248.240 2133.230 2249.840 2225.270 ;
+        RECT 2401.840 2148.190 2403.440 2225.270 ;
     END
   END vssd1
   PIN vssd1
@@ -2772,7 +2724,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2094.640 2133.230 2096.240 2225.270 ;
+        RECT 2248.240 2148.190 2249.840 2225.270 ;
     END
   END vssd1
   PIN vssd1
@@ -2780,7 +2732,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2555.440 1620.090 2557.040 1712.130 ;
+        RECT 2094.640 2148.190 2096.240 2225.270 ;
     END
   END vssd1
   PIN vssd1
@@ -2788,7 +2740,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2401.840 1620.090 2403.440 1712.130 ;
+        RECT 1941.040 2148.190 1942.640 2225.270 ;
     END
   END vssd1
   PIN vssd1
@@ -2796,7 +2748,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2248.240 1620.090 2249.840 1712.130 ;
+        RECT 2555.440 1635.050 2557.040 1712.130 ;
     END
   END vssd1
   PIN vssd1
@@ -2804,7 +2756,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2094.640 1620.090 2096.240 1712.130 ;
+        RECT 2401.840 1635.050 2403.440 1712.130 ;
     END
   END vssd1
   PIN vssd1
@@ -2812,7 +2764,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2555.440 1106.950 2557.040 1198.990 ;
+        RECT 2248.240 1635.050 2249.840 1712.130 ;
     END
   END vssd1
   PIN vssd1
@@ -2820,7 +2772,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2401.840 1106.950 2403.440 1198.990 ;
+        RECT 2094.640 1635.050 2096.240 1712.130 ;
     END
   END vssd1
   PIN vssd1
@@ -2828,7 +2780,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2248.240 1106.950 2249.840 1198.990 ;
+        RECT 1941.040 1635.050 1942.640 1712.130 ;
     END
   END vssd1
   PIN vssd1
@@ -2836,7 +2788,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2094.640 1106.950 2096.240 1198.990 ;
+        RECT 2555.440 1121.910 2557.040 1198.990 ;
     END
   END vssd1
   PIN vssd1
@@ -2844,7 +2796,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2555.440 593.810 2557.040 685.850 ;
+        RECT 2401.840 1121.910 2403.440 1198.990 ;
     END
   END vssd1
   PIN vssd1
@@ -2852,7 +2804,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2401.840 593.810 2403.440 685.850 ;
+        RECT 2248.240 1121.910 2249.840 1198.990 ;
     END
   END vssd1
   PIN vssd1
@@ -2860,7 +2812,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2248.240 593.810 2249.840 685.850 ;
+        RECT 2094.640 1121.910 2096.240 1198.990 ;
     END
   END vssd1
   PIN vssd1
@@ -2868,7 +2820,47 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2094.640 593.810 2096.240 685.850 ;
+        RECT 1941.040 1121.910 1942.640 1198.990 ;
+    END
+  END vssd1
+  PIN vssd1
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 2555.440 608.770 2557.040 685.850 ;
+    END
+  END vssd1
+  PIN vssd1
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 2401.840 608.770 2403.440 685.850 ;
+    END
+  END vssd1
+  PIN vssd1
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 2248.240 608.770 2249.840 685.850 ;
+    END
+  END vssd1
+  PIN vssd1
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 2094.640 608.770 2096.240 685.850 ;
+    END
+  END vssd1
+  PIN vssd1
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 1941.040 608.770 1942.640 685.850 ;
     END
   END vssd1
   PIN vssd1
@@ -2903,12 +2895,20 @@ MACRO top_level_bASIC
         RECT 2094.640 10.640 2096.240 172.710 ;
     END
   END vssd1
+  PIN vssd1
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 1941.040 10.640 1942.640 172.710 ;
+    END
+  END vssd1
   PIN vccd2
     DIRECTION INOUT ;
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2635.540 3159.750 2637.140 3288.480 ;
+        RECT 2635.540 10.880 2637.140 3288.480 ;
     END
   END vccd2
   PIN vccd2
@@ -2916,7 +2916,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2481.940 3159.750 2483.540 3288.480 ;
+        RECT 2481.940 3174.710 2483.540 3288.480 ;
     END
   END vccd2
   PIN vccd2
@@ -2924,7 +2924,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2328.340 3159.750 2329.940 3288.480 ;
+        RECT 2328.340 3174.710 2329.940 3288.480 ;
     END
   END vccd2
   PIN vccd2
@@ -2932,7 +2932,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2174.740 3159.750 2176.340 3288.480 ;
+        RECT 2174.740 3174.710 2176.340 3288.480 ;
     END
   END vccd2
   PIN vccd2
@@ -2940,7 +2940,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2021.140 3159.750 2022.740 3288.480 ;
+        RECT 2021.140 3174.710 2022.740 3288.480 ;
     END
   END vccd2
   PIN vccd2
@@ -3052,7 +3052,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2635.540 2646.610 2637.140 2738.170 ;
+        RECT 2481.940 2661.570 2483.540 2738.170 ;
     END
   END vccd2
   PIN vccd2
@@ -3060,7 +3060,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2481.940 2646.610 2483.540 2738.170 ;
+        RECT 2328.340 2661.570 2329.940 2738.170 ;
     END
   END vccd2
   PIN vccd2
@@ -3068,7 +3068,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2328.340 2646.610 2329.940 2738.170 ;
+        RECT 2174.740 2661.570 2176.340 2738.170 ;
     END
   END vccd2
   PIN vccd2
@@ -3076,7 +3076,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2174.740 2646.610 2176.340 2738.170 ;
+        RECT 2021.140 2661.570 2022.740 2738.170 ;
     END
   END vccd2
   PIN vccd2
@@ -3084,7 +3084,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2021.140 2646.610 2022.740 2738.170 ;
+        RECT 2481.940 2148.430 2483.540 2225.030 ;
     END
   END vccd2
   PIN vccd2
@@ -3092,7 +3092,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2635.540 2133.470 2637.140 2225.030 ;
+        RECT 2328.340 2148.430 2329.940 2225.030 ;
     END
   END vccd2
   PIN vccd2
@@ -3100,7 +3100,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2481.940 2133.470 2483.540 2225.030 ;
+        RECT 2174.740 2148.430 2176.340 2225.030 ;
     END
   END vccd2
   PIN vccd2
@@ -3108,7 +3108,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2328.340 2133.470 2329.940 2225.030 ;
+        RECT 2021.140 2148.430 2022.740 2225.030 ;
     END
   END vccd2
   PIN vccd2
@@ -3116,7 +3116,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2174.740 2133.470 2176.340 2225.030 ;
+        RECT 2481.940 1635.290 2483.540 1711.890 ;
     END
   END vccd2
   PIN vccd2
@@ -3124,7 +3124,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2021.140 2133.470 2022.740 2225.030 ;
+        RECT 2328.340 1635.290 2329.940 1711.890 ;
     END
   END vccd2
   PIN vccd2
@@ -3132,7 +3132,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2635.540 1620.330 2637.140 1711.890 ;
+        RECT 2174.740 1635.290 2176.340 1711.890 ;
     END
   END vccd2
   PIN vccd2
@@ -3140,7 +3140,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2481.940 1620.330 2483.540 1711.890 ;
+        RECT 2021.140 1635.290 2022.740 1711.890 ;
     END
   END vccd2
   PIN vccd2
@@ -3148,7 +3148,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2328.340 1620.330 2329.940 1711.890 ;
+        RECT 2481.940 1122.150 2483.540 1198.750 ;
     END
   END vccd2
   PIN vccd2
@@ -3156,7 +3156,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2174.740 1620.330 2176.340 1711.890 ;
+        RECT 2328.340 1122.150 2329.940 1198.750 ;
     END
   END vccd2
   PIN vccd2
@@ -3164,7 +3164,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2021.140 1620.330 2022.740 1711.890 ;
+        RECT 2174.740 1122.150 2176.340 1198.750 ;
     END
   END vccd2
   PIN vccd2
@@ -3172,7 +3172,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2635.540 1107.190 2637.140 1198.750 ;
+        RECT 2021.140 1122.150 2022.740 1198.750 ;
     END
   END vccd2
   PIN vccd2
@@ -3180,7 +3180,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2481.940 1107.190 2483.540 1198.750 ;
+        RECT 2481.940 609.010 2483.540 685.610 ;
     END
   END vccd2
   PIN vccd2
@@ -3188,7 +3188,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2328.340 1107.190 2329.940 1198.750 ;
+        RECT 2328.340 609.010 2329.940 685.610 ;
     END
   END vccd2
   PIN vccd2
@@ -3196,7 +3196,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2174.740 1107.190 2176.340 1198.750 ;
+        RECT 2174.740 609.010 2176.340 685.610 ;
     END
   END vccd2
   PIN vccd2
@@ -3204,55 +3204,7 @@ MACRO top_level_bASIC
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 2021.140 1107.190 2022.740 1198.750 ;
-    END
-  END vccd2
-  PIN vccd2
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER met4 ;
-        RECT 2635.540 594.050 2637.140 685.610 ;
-    END
-  END vccd2
-  PIN vccd2
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER met4 ;
-        RECT 2481.940 594.050 2483.540 685.610 ;
-    END
-  END vccd2
-  PIN vccd2
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER met4 ;
-        RECT 2328.340 594.050 2329.940 685.610 ;
-    END
-  END vccd2
-  PIN vccd2
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER met4 ;
-        RECT 2174.740 594.050 2176.340 685.610 ;
-    END
-  END vccd2
-  PIN vccd2
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER met4 ;
-        RECT 2021.140 594.050 2022.740 685.610 ;
-    END
-  END vccd2
-  PIN vccd2
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER met4 ;
-        RECT 2635.540 10.880 2637.140 172.470 ;
+        RECT 2021.140 609.010 2022.740 685.610 ;
     END
   END vccd2
   PIN vccd2
@@ -3292,7 +3244,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2558.740 3159.750 2560.340 3288.480 ;
+        RECT 2558.740 3174.710 2560.340 3288.480 ;
     END
   END vssd2
   PIN vssd2
@@ -3300,7 +3252,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2405.140 3159.750 2406.740 3288.480 ;
+        RECT 2405.140 3174.710 2406.740 3288.480 ;
     END
   END vssd2
   PIN vssd2
@@ -3308,7 +3260,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2251.540 3159.750 2253.140 3288.480 ;
+        RECT 2251.540 3174.710 2253.140 3288.480 ;
     END
   END vssd2
   PIN vssd2
@@ -3316,7 +3268,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2097.940 3159.750 2099.540 3288.480 ;
+        RECT 2097.940 3174.710 2099.540 3288.480 ;
     END
   END vssd2
   PIN vssd2
@@ -3324,7 +3276,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 1944.340 10.880 1945.940 3288.480 ;
+        RECT 1944.340 3174.710 1945.940 3288.480 ;
     END
   END vssd2
   PIN vssd2
@@ -3428,7 +3380,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2558.740 2646.610 2560.340 2738.170 ;
+        RECT 2558.740 2661.570 2560.340 2738.170 ;
     END
   END vssd2
   PIN vssd2
@@ -3436,7 +3388,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2405.140 2646.610 2406.740 2738.170 ;
+        RECT 2405.140 2661.570 2406.740 2738.170 ;
     END
   END vssd2
   PIN vssd2
@@ -3444,7 +3396,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2251.540 2646.610 2253.140 2738.170 ;
+        RECT 2251.540 2661.570 2253.140 2738.170 ;
     END
   END vssd2
   PIN vssd2
@@ -3452,7 +3404,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2097.940 2646.610 2099.540 2738.170 ;
+        RECT 2097.940 2661.570 2099.540 2738.170 ;
     END
   END vssd2
   PIN vssd2
@@ -3460,7 +3412,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2558.740 2133.470 2560.340 2225.030 ;
+        RECT 1944.340 2661.570 1945.940 2738.170 ;
     END
   END vssd2
   PIN vssd2
@@ -3468,7 +3420,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2405.140 2133.470 2406.740 2225.030 ;
+        RECT 2558.740 2148.430 2560.340 2225.030 ;
     END
   END vssd2
   PIN vssd2
@@ -3476,7 +3428,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2251.540 2133.470 2253.140 2225.030 ;
+        RECT 2405.140 2148.430 2406.740 2225.030 ;
     END
   END vssd2
   PIN vssd2
@@ -3484,7 +3436,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2097.940 2133.470 2099.540 2225.030 ;
+        RECT 2251.540 2148.430 2253.140 2225.030 ;
     END
   END vssd2
   PIN vssd2
@@ -3492,7 +3444,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2558.740 1620.330 2560.340 1711.890 ;
+        RECT 2097.940 2148.430 2099.540 2225.030 ;
     END
   END vssd2
   PIN vssd2
@@ -3500,7 +3452,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2405.140 1620.330 2406.740 1711.890 ;
+        RECT 1944.340 2148.430 1945.940 2225.030 ;
     END
   END vssd2
   PIN vssd2
@@ -3508,7 +3460,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2251.540 1620.330 2253.140 1711.890 ;
+        RECT 2558.740 1635.290 2560.340 1711.890 ;
     END
   END vssd2
   PIN vssd2
@@ -3516,7 +3468,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2097.940 1620.330 2099.540 1711.890 ;
+        RECT 2405.140 1635.290 2406.740 1711.890 ;
     END
   END vssd2
   PIN vssd2
@@ -3524,7 +3476,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2558.740 1107.190 2560.340 1198.750 ;
+        RECT 2251.540 1635.290 2253.140 1711.890 ;
     END
   END vssd2
   PIN vssd2
@@ -3532,7 +3484,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2405.140 1107.190 2406.740 1198.750 ;
+        RECT 2097.940 1635.290 2099.540 1711.890 ;
     END
   END vssd2
   PIN vssd2
@@ -3540,7 +3492,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2251.540 1107.190 2253.140 1198.750 ;
+        RECT 1944.340 1635.290 1945.940 1711.890 ;
     END
   END vssd2
   PIN vssd2
@@ -3548,7 +3500,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2097.940 1107.190 2099.540 1198.750 ;
+        RECT 2558.740 1122.150 2560.340 1198.750 ;
     END
   END vssd2
   PIN vssd2
@@ -3556,7 +3508,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2558.740 594.050 2560.340 685.610 ;
+        RECT 2405.140 1122.150 2406.740 1198.750 ;
     END
   END vssd2
   PIN vssd2
@@ -3564,7 +3516,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2405.140 594.050 2406.740 685.610 ;
+        RECT 2251.540 1122.150 2253.140 1198.750 ;
     END
   END vssd2
   PIN vssd2
@@ -3572,7 +3524,7 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2251.540 594.050 2253.140 685.610 ;
+        RECT 2097.940 1122.150 2099.540 1198.750 ;
     END
   END vssd2
   PIN vssd2
@@ -3580,7 +3532,47 @@ MACRO top_level_bASIC
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 2097.940 594.050 2099.540 685.610 ;
+        RECT 1944.340 1122.150 1945.940 1198.750 ;
+    END
+  END vssd2
+  PIN vssd2
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 2558.740 609.010 2560.340 685.610 ;
+    END
+  END vssd2
+  PIN vssd2
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 2405.140 609.010 2406.740 685.610 ;
+    END
+  END vssd2
+  PIN vssd2
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 2251.540 609.010 2253.140 685.610 ;
+    END
+  END vssd2
+  PIN vssd2
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 2097.940 609.010 2099.540 685.610 ;
+    END
+  END vssd2
+  PIN vssd2
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 1944.340 609.010 1945.940 685.610 ;
     END
   END vssd2
   PIN vssd2
@@ -3615,19 +3607,28 @@ MACRO top_level_bASIC
         RECT 2097.940 10.880 2099.540 172.470 ;
     END
   END vssd2
+  PIN vssd2
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 1944.340 10.880 1945.940 172.470 ;
+    END
+  END vssd2
   OBS
       LAYER li1 ;
         RECT 5.520 6.885 2694.220 3288.565 ;
       LAYER met1 ;
-        RECT 5.520 6.840 2697.830 3288.720 ;
+        RECT 5.520 6.840 2694.610 3288.720 ;
       LAYER met2 ;
-        RECT 5.620 3295.720 269.830 3296.000 ;
-        RECT 270.670 3295.720 809.870 3296.000 ;
-        RECT 810.710 3295.720 1349.910 3296.000 ;
-        RECT 1350.750 3295.720 1889.950 3296.000 ;
-        RECT 1890.790 3295.720 2429.990 3296.000 ;
-        RECT 2430.830 3295.720 2697.800 3296.000 ;
-        RECT 5.620 4.280 2697.800 3295.720 ;
+        RECT 5.620 3295.720 224.750 3296.000 ;
+        RECT 225.590 3295.720 674.630 3296.000 ;
+        RECT 675.470 3295.720 1124.510 3296.000 ;
+        RECT 1125.350 3295.720 1574.850 3296.000 ;
+        RECT 1575.690 3295.720 2024.730 3296.000 ;
+        RECT 2025.570 3295.720 2474.610 3296.000 ;
+        RECT 2475.450 3295.720 2694.580 3296.000 ;
+        RECT 5.620 4.280 2694.580 3295.720 ;
         RECT 6.170 4.000 16.370 4.280 ;
         RECT 17.210 4.000 27.870 4.280 ;
         RECT 28.710 4.000 39.370 4.280 ;
@@ -3863,359 +3864,356 @@ MACRO top_level_bASIC
         RECT 2660.370 4.000 2671.030 4.280 ;
         RECT 2671.870 4.000 2682.530 4.280 ;
         RECT 2683.370 4.000 2694.030 4.280 ;
-        RECT 2694.870 4.000 2697.800 4.280 ;
       LAYER met3 ;
-        RECT 4.000 3247.360 2696.000 3288.645 ;
-        RECT 4.000 3245.960 2695.600 3247.360 ;
-        RECT 4.000 3140.600 2696.000 3245.960 ;
-        RECT 4.000 3139.200 2695.600 3140.600 ;
-        RECT 4.000 3034.520 2696.000 3139.200 ;
-        RECT 4.000 3033.120 2695.600 3034.520 ;
-        RECT 4.000 2927.760 2696.000 3033.120 ;
-        RECT 4.000 2926.360 2695.600 2927.760 ;
-        RECT 4.000 2821.680 2696.000 2926.360 ;
-        RECT 4.000 2820.280 2695.600 2821.680 ;
-        RECT 4.000 2714.920 2696.000 2820.280 ;
-        RECT 4.000 2713.520 2695.600 2714.920 ;
-        RECT 4.000 2608.840 2696.000 2713.520 ;
-        RECT 4.000 2607.440 2695.600 2608.840 ;
-        RECT 4.000 2502.080 2696.000 2607.440 ;
-        RECT 4.000 2500.680 2695.600 2502.080 ;
-        RECT 4.000 2396.000 2696.000 2500.680 ;
-        RECT 4.000 2394.600 2695.600 2396.000 ;
-        RECT 4.000 2289.240 2696.000 2394.600 ;
-        RECT 4.000 2287.840 2695.600 2289.240 ;
-        RECT 4.000 2182.480 2696.000 2287.840 ;
-        RECT 4.000 2181.080 2695.600 2182.480 ;
-        RECT 4.000 2076.400 2696.000 2181.080 ;
-        RECT 4.000 2075.000 2695.600 2076.400 ;
-        RECT 4.000 1969.640 2696.000 2075.000 ;
-        RECT 4.000 1968.240 2695.600 1969.640 ;
-        RECT 4.000 1863.560 2696.000 1968.240 ;
-        RECT 4.000 1862.160 2695.600 1863.560 ;
-        RECT 4.000 1756.800 2696.000 1862.160 ;
-        RECT 4.000 1755.400 2695.600 1756.800 ;
-        RECT 4.000 1650.720 2696.000 1755.400 ;
-        RECT 4.400 1649.320 2695.600 1650.720 ;
-        RECT 4.000 1543.960 2696.000 1649.320 ;
-        RECT 4.000 1542.560 2695.600 1543.960 ;
-        RECT 4.000 1437.880 2696.000 1542.560 ;
-        RECT 4.000 1436.480 2695.600 1437.880 ;
-        RECT 4.000 1331.120 2696.000 1436.480 ;
-        RECT 4.000 1329.720 2695.600 1331.120 ;
-        RECT 4.000 1225.040 2696.000 1329.720 ;
-        RECT 4.000 1223.640 2695.600 1225.040 ;
-        RECT 4.000 1118.280 2696.000 1223.640 ;
-        RECT 4.000 1116.880 2695.600 1118.280 ;
-        RECT 4.000 1011.520 2696.000 1116.880 ;
-        RECT 4.000 1010.120 2695.600 1011.520 ;
-        RECT 4.000 905.440 2696.000 1010.120 ;
-        RECT 4.000 904.040 2695.600 905.440 ;
-        RECT 4.000 798.680 2696.000 904.040 ;
-        RECT 4.000 797.280 2695.600 798.680 ;
-        RECT 4.000 692.600 2696.000 797.280 ;
-        RECT 4.000 691.200 2695.600 692.600 ;
-        RECT 4.000 585.840 2696.000 691.200 ;
-        RECT 4.000 584.440 2695.600 585.840 ;
-        RECT 4.000 479.760 2696.000 584.440 ;
-        RECT 4.000 478.360 2695.600 479.760 ;
-        RECT 4.000 373.000 2696.000 478.360 ;
-        RECT 4.000 371.600 2695.600 373.000 ;
-        RECT 4.000 266.920 2696.000 371.600 ;
-        RECT 4.000 265.520 2695.600 266.920 ;
-        RECT 4.000 160.160 2696.000 265.520 ;
-        RECT 4.000 158.760 2695.600 160.160 ;
-        RECT 4.000 54.080 2696.000 158.760 ;
-        RECT 4.000 52.680 2695.600 54.080 ;
-        RECT 4.000 9.015 2696.000 52.680 ;
+        RECT 4.000 3245.320 2696.000 3288.645 ;
+        RECT 4.000 3243.920 2695.600 3245.320 ;
+        RECT 4.000 3135.160 2696.000 3243.920 ;
+        RECT 4.000 3133.760 2695.600 3135.160 ;
+        RECT 4.000 3025.000 2696.000 3133.760 ;
+        RECT 4.000 3023.600 2695.600 3025.000 ;
+        RECT 4.000 2914.840 2696.000 3023.600 ;
+        RECT 4.000 2913.440 2695.600 2914.840 ;
+        RECT 4.000 2805.360 2696.000 2913.440 ;
+        RECT 4.000 2803.960 2695.600 2805.360 ;
+        RECT 4.000 2695.200 2696.000 2803.960 ;
+        RECT 4.000 2693.800 2695.600 2695.200 ;
+        RECT 4.000 2585.040 2696.000 2693.800 ;
+        RECT 4.000 2583.640 2695.600 2585.040 ;
+        RECT 4.000 2474.880 2696.000 2583.640 ;
+        RECT 4.000 2473.480 2695.600 2474.880 ;
+        RECT 4.000 2365.400 2696.000 2473.480 ;
+        RECT 4.000 2364.000 2695.600 2365.400 ;
+        RECT 4.000 2255.240 2696.000 2364.000 ;
+        RECT 4.000 2253.840 2695.600 2255.240 ;
+        RECT 4.000 2145.080 2696.000 2253.840 ;
+        RECT 4.000 2143.680 2695.600 2145.080 ;
+        RECT 4.000 2034.920 2696.000 2143.680 ;
+        RECT 4.000 2033.520 2695.600 2034.920 ;
+        RECT 4.000 1925.440 2696.000 2033.520 ;
+        RECT 4.000 1924.040 2695.600 1925.440 ;
+        RECT 4.000 1815.280 2696.000 1924.040 ;
+        RECT 4.000 1813.880 2695.600 1815.280 ;
+        RECT 4.000 1705.120 2696.000 1813.880 ;
+        RECT 4.000 1703.720 2695.600 1705.120 ;
+        RECT 4.000 1650.720 2696.000 1703.720 ;
+        RECT 4.400 1649.320 2696.000 1650.720 ;
+        RECT 4.000 1594.960 2696.000 1649.320 ;
+        RECT 4.000 1593.560 2695.600 1594.960 ;
+        RECT 4.000 1484.800 2696.000 1593.560 ;
+        RECT 4.000 1483.400 2695.600 1484.800 ;
+        RECT 4.000 1375.320 2696.000 1483.400 ;
+        RECT 4.000 1373.920 2695.600 1375.320 ;
+        RECT 4.000 1265.160 2696.000 1373.920 ;
+        RECT 4.000 1263.760 2695.600 1265.160 ;
+        RECT 4.000 1155.000 2696.000 1263.760 ;
+        RECT 4.000 1153.600 2695.600 1155.000 ;
+        RECT 4.000 1044.840 2696.000 1153.600 ;
+        RECT 4.000 1043.440 2695.600 1044.840 ;
+        RECT 4.000 935.360 2696.000 1043.440 ;
+        RECT 4.000 933.960 2695.600 935.360 ;
+        RECT 4.000 825.200 2696.000 933.960 ;
+        RECT 4.000 823.800 2695.600 825.200 ;
+        RECT 4.000 715.040 2696.000 823.800 ;
+        RECT 4.000 713.640 2695.600 715.040 ;
+        RECT 4.000 604.880 2696.000 713.640 ;
+        RECT 4.000 603.480 2695.600 604.880 ;
+        RECT 4.000 495.400 2696.000 603.480 ;
+        RECT 4.000 494.000 2695.600 495.400 ;
+        RECT 4.000 385.240 2696.000 494.000 ;
+        RECT 4.000 383.840 2695.600 385.240 ;
+        RECT 4.000 275.080 2696.000 383.840 ;
+        RECT 4.000 273.680 2695.600 275.080 ;
+        RECT 4.000 164.920 2696.000 273.680 ;
+        RECT 4.000 163.520 2695.600 164.920 ;
+        RECT 4.000 55.440 2696.000 163.520 ;
+        RECT 4.000 54.040 2695.600 55.440 ;
+        RECT 4.000 10.715 2696.000 54.040 ;
       LAYER met4 ;
-        RECT 454.775 17.175 481.440 3167.265 ;
-        RECT 483.840 17.175 484.740 3167.265 ;
-        RECT 487.140 17.175 558.240 3167.265 ;
-        RECT 560.640 17.175 561.540 3167.265 ;
-        RECT 563.940 17.175 635.040 3167.265 ;
-        RECT 637.440 17.175 638.340 3167.265 ;
-        RECT 640.740 17.175 711.840 3167.265 ;
-        RECT 714.240 17.175 715.140 3167.265 ;
-        RECT 717.540 17.175 788.640 3167.265 ;
-        RECT 791.040 17.175 791.940 3167.265 ;
-        RECT 794.340 17.175 865.440 3167.265 ;
-        RECT 867.840 17.175 868.740 3167.265 ;
-        RECT 871.140 17.175 942.240 3167.265 ;
-        RECT 944.640 17.175 945.540 3167.265 ;
-        RECT 947.940 17.175 1019.040 3167.265 ;
-        RECT 1021.440 17.175 1022.340 3167.265 ;
-        RECT 1024.740 17.175 1095.840 3167.265 ;
-        RECT 1098.240 17.175 1099.140 3167.265 ;
-        RECT 1101.540 17.175 1172.640 3167.265 ;
-        RECT 1175.040 17.175 1175.940 3167.265 ;
-        RECT 1178.340 17.175 1249.440 3167.265 ;
-        RECT 1251.840 17.175 1252.740 3167.265 ;
-        RECT 1255.140 17.175 1326.240 3167.265 ;
-        RECT 1328.640 17.175 1329.540 3167.265 ;
-        RECT 1331.940 17.175 1403.040 3167.265 ;
-        RECT 1405.440 17.175 1406.340 3167.265 ;
-        RECT 1408.740 17.175 1479.840 3167.265 ;
-        RECT 1482.240 17.175 1483.140 3167.265 ;
-        RECT 1485.540 17.175 1556.640 3167.265 ;
-        RECT 1559.040 17.175 1559.940 3167.265 ;
-        RECT 1562.340 17.175 1633.440 3167.265 ;
-        RECT 1635.840 17.175 1636.740 3167.265 ;
-        RECT 1639.140 17.175 1710.240 3167.265 ;
-        RECT 1712.640 17.175 1713.540 3167.265 ;
-        RECT 1715.940 17.175 1787.040 3167.265 ;
-        RECT 1789.440 17.175 1790.340 3167.265 ;
-        RECT 1792.740 17.175 1863.840 3167.265 ;
-        RECT 1866.240 17.175 1867.140 3167.265 ;
-        RECT 1869.540 17.175 1940.640 3167.265 ;
-        RECT 1943.040 17.175 1943.940 3167.265 ;
-        RECT 1946.340 3159.110 2017.440 3167.265 ;
-        RECT 2019.840 3159.350 2020.740 3167.265 ;
-        RECT 2023.140 3159.350 2094.240 3167.265 ;
-        RECT 2019.840 3159.110 2094.240 3159.350 ;
-        RECT 2096.640 3159.350 2097.540 3167.265 ;
-        RECT 2099.940 3159.350 2171.040 3167.265 ;
-        RECT 2096.640 3159.110 2171.040 3159.350 ;
-        RECT 2173.440 3159.350 2174.340 3167.265 ;
-        RECT 2176.740 3159.350 2247.840 3167.265 ;
-        RECT 2173.440 3159.110 2247.840 3159.350 ;
-        RECT 2250.240 3159.350 2251.140 3167.265 ;
-        RECT 2253.540 3159.350 2324.640 3167.265 ;
-        RECT 2250.240 3159.110 2324.640 3159.350 ;
-        RECT 2327.040 3159.350 2327.940 3167.265 ;
-        RECT 2330.340 3159.350 2401.440 3167.265 ;
-        RECT 2327.040 3159.110 2401.440 3159.350 ;
-        RECT 2403.840 3159.350 2404.740 3167.265 ;
-        RECT 2407.140 3159.350 2478.240 3167.265 ;
-        RECT 2403.840 3159.110 2478.240 3159.350 ;
-        RECT 2480.640 3159.350 2481.540 3167.265 ;
-        RECT 2483.940 3159.350 2555.040 3167.265 ;
-        RECT 2480.640 3159.110 2555.040 3159.350 ;
-        RECT 2557.440 3159.350 2558.340 3167.265 ;
-        RECT 2560.740 3159.350 2631.840 3167.265 ;
-        RECT 2557.440 3159.110 2631.840 3159.350 ;
-        RECT 2634.240 3159.350 2635.140 3167.265 ;
-        RECT 2637.540 3159.350 2687.945 3167.265 ;
-        RECT 2634.240 3159.110 2687.945 3159.350 ;
-        RECT 1946.340 2738.810 2687.945 3159.110 ;
-        RECT 1946.340 2645.970 2017.440 2738.810 ;
+        RECT 434.535 15.815 481.440 3180.865 ;
+        RECT 483.840 15.815 484.740 3180.865 ;
+        RECT 487.140 15.815 558.240 3180.865 ;
+        RECT 560.640 15.815 561.540 3180.865 ;
+        RECT 563.940 15.815 635.040 3180.865 ;
+        RECT 637.440 15.815 638.340 3180.865 ;
+        RECT 640.740 15.815 711.840 3180.865 ;
+        RECT 714.240 15.815 715.140 3180.865 ;
+        RECT 717.540 15.815 788.640 3180.865 ;
+        RECT 791.040 15.815 791.940 3180.865 ;
+        RECT 794.340 15.815 865.440 3180.865 ;
+        RECT 867.840 15.815 868.740 3180.865 ;
+        RECT 871.140 15.815 942.240 3180.865 ;
+        RECT 944.640 15.815 945.540 3180.865 ;
+        RECT 947.940 15.815 1019.040 3180.865 ;
+        RECT 1021.440 15.815 1022.340 3180.865 ;
+        RECT 1024.740 15.815 1095.840 3180.865 ;
+        RECT 1098.240 15.815 1099.140 3180.865 ;
+        RECT 1101.540 15.815 1172.640 3180.865 ;
+        RECT 1175.040 15.815 1175.940 3180.865 ;
+        RECT 1178.340 15.815 1249.440 3180.865 ;
+        RECT 1251.840 15.815 1252.740 3180.865 ;
+        RECT 1255.140 15.815 1326.240 3180.865 ;
+        RECT 1328.640 15.815 1329.540 3180.865 ;
+        RECT 1331.940 15.815 1403.040 3180.865 ;
+        RECT 1405.440 15.815 1406.340 3180.865 ;
+        RECT 1408.740 15.815 1479.840 3180.865 ;
+        RECT 1482.240 15.815 1483.140 3180.865 ;
+        RECT 1485.540 15.815 1556.640 3180.865 ;
+        RECT 1559.040 15.815 1559.940 3180.865 ;
+        RECT 1562.340 15.815 1633.440 3180.865 ;
+        RECT 1635.840 15.815 1636.740 3180.865 ;
+        RECT 1639.140 15.815 1710.240 3180.865 ;
+        RECT 1712.640 15.815 1713.540 3180.865 ;
+        RECT 1715.940 15.815 1787.040 3180.865 ;
+        RECT 1789.440 15.815 1790.340 3180.865 ;
+        RECT 1792.740 15.815 1863.840 3180.865 ;
+        RECT 1866.240 15.815 1867.140 3180.865 ;
+        RECT 1869.540 3174.070 1940.640 3180.865 ;
+        RECT 1943.040 3174.310 1943.940 3180.865 ;
+        RECT 1946.340 3174.310 2017.440 3180.865 ;
+        RECT 1943.040 3174.070 2017.440 3174.310 ;
+        RECT 2019.840 3174.310 2020.740 3180.865 ;
+        RECT 2023.140 3174.310 2094.240 3180.865 ;
+        RECT 2019.840 3174.070 2094.240 3174.310 ;
+        RECT 2096.640 3174.310 2097.540 3180.865 ;
+        RECT 2099.940 3174.310 2171.040 3180.865 ;
+        RECT 2096.640 3174.070 2171.040 3174.310 ;
+        RECT 2173.440 3174.310 2174.340 3180.865 ;
+        RECT 2176.740 3174.310 2247.840 3180.865 ;
+        RECT 2173.440 3174.070 2247.840 3174.310 ;
+        RECT 2250.240 3174.310 2251.140 3180.865 ;
+        RECT 2253.540 3174.310 2324.640 3180.865 ;
+        RECT 2250.240 3174.070 2324.640 3174.310 ;
+        RECT 2327.040 3174.310 2327.940 3180.865 ;
+        RECT 2330.340 3174.310 2401.440 3180.865 ;
+        RECT 2327.040 3174.070 2401.440 3174.310 ;
+        RECT 2403.840 3174.310 2404.740 3180.865 ;
+        RECT 2407.140 3174.310 2478.240 3180.865 ;
+        RECT 2403.840 3174.070 2478.240 3174.310 ;
+        RECT 2480.640 3174.310 2481.540 3180.865 ;
+        RECT 2483.940 3174.310 2555.040 3180.865 ;
+        RECT 2480.640 3174.070 2555.040 3174.310 ;
+        RECT 2557.440 3174.310 2558.340 3180.865 ;
+        RECT 2560.740 3174.310 2622.625 3180.865 ;
+        RECT 2557.440 3174.070 2622.625 3174.310 ;
+        RECT 1869.540 2738.810 2622.625 3174.070 ;
+        RECT 1869.540 2660.930 1940.640 2738.810 ;
+        RECT 1943.040 2738.570 2017.440 2738.810 ;
+        RECT 1943.040 2661.170 1943.940 2738.570 ;
+        RECT 1946.340 2661.170 2017.440 2738.570 ;
+        RECT 1943.040 2660.930 2017.440 2661.170 ;
         RECT 2019.840 2738.570 2094.240 2738.810 ;
-        RECT 2019.840 2646.210 2020.740 2738.570 ;
-        RECT 2023.140 2646.210 2094.240 2738.570 ;
-        RECT 2019.840 2645.970 2094.240 2646.210 ;
+        RECT 2019.840 2661.170 2020.740 2738.570 ;
+        RECT 2023.140 2661.170 2094.240 2738.570 ;
+        RECT 2019.840 2660.930 2094.240 2661.170 ;
         RECT 2096.640 2738.570 2171.040 2738.810 ;
-        RECT 2096.640 2646.210 2097.540 2738.570 ;
-        RECT 2099.940 2646.210 2171.040 2738.570 ;
-        RECT 2096.640 2645.970 2171.040 2646.210 ;
+        RECT 2096.640 2661.170 2097.540 2738.570 ;
+        RECT 2099.940 2661.170 2171.040 2738.570 ;
+        RECT 2096.640 2660.930 2171.040 2661.170 ;
         RECT 2173.440 2738.570 2247.840 2738.810 ;
-        RECT 2173.440 2646.210 2174.340 2738.570 ;
-        RECT 2176.740 2646.210 2247.840 2738.570 ;
-        RECT 2173.440 2645.970 2247.840 2646.210 ;
+        RECT 2173.440 2661.170 2174.340 2738.570 ;
+        RECT 2176.740 2661.170 2247.840 2738.570 ;
+        RECT 2173.440 2660.930 2247.840 2661.170 ;
         RECT 2250.240 2738.570 2324.640 2738.810 ;
-        RECT 2250.240 2646.210 2251.140 2738.570 ;
-        RECT 2253.540 2646.210 2324.640 2738.570 ;
-        RECT 2250.240 2645.970 2324.640 2646.210 ;
+        RECT 2250.240 2661.170 2251.140 2738.570 ;
+        RECT 2253.540 2661.170 2324.640 2738.570 ;
+        RECT 2250.240 2660.930 2324.640 2661.170 ;
         RECT 2327.040 2738.570 2401.440 2738.810 ;
-        RECT 2327.040 2646.210 2327.940 2738.570 ;
-        RECT 2330.340 2646.210 2401.440 2738.570 ;
-        RECT 2327.040 2645.970 2401.440 2646.210 ;
+        RECT 2327.040 2661.170 2327.940 2738.570 ;
+        RECT 2330.340 2661.170 2401.440 2738.570 ;
+        RECT 2327.040 2660.930 2401.440 2661.170 ;
         RECT 2403.840 2738.570 2478.240 2738.810 ;
-        RECT 2403.840 2646.210 2404.740 2738.570 ;
-        RECT 2407.140 2646.210 2478.240 2738.570 ;
-        RECT 2403.840 2645.970 2478.240 2646.210 ;
+        RECT 2403.840 2661.170 2404.740 2738.570 ;
+        RECT 2407.140 2661.170 2478.240 2738.570 ;
+        RECT 2403.840 2660.930 2478.240 2661.170 ;
         RECT 2480.640 2738.570 2555.040 2738.810 ;
-        RECT 2480.640 2646.210 2481.540 2738.570 ;
-        RECT 2483.940 2646.210 2555.040 2738.570 ;
-        RECT 2480.640 2645.970 2555.040 2646.210 ;
-        RECT 2557.440 2738.570 2631.840 2738.810 ;
-        RECT 2557.440 2646.210 2558.340 2738.570 ;
-        RECT 2560.740 2646.210 2631.840 2738.570 ;
-        RECT 2557.440 2645.970 2631.840 2646.210 ;
-        RECT 2634.240 2738.570 2687.945 2738.810 ;
-        RECT 2634.240 2646.210 2635.140 2738.570 ;
-        RECT 2637.540 2646.210 2687.945 2738.570 ;
-        RECT 2634.240 2645.970 2687.945 2646.210 ;
-        RECT 1946.340 2225.670 2687.945 2645.970 ;
-        RECT 1946.340 2132.830 2017.440 2225.670 ;
+        RECT 2480.640 2661.170 2481.540 2738.570 ;
+        RECT 2483.940 2661.170 2555.040 2738.570 ;
+        RECT 2480.640 2660.930 2555.040 2661.170 ;
+        RECT 2557.440 2738.570 2622.625 2738.810 ;
+        RECT 2557.440 2661.170 2558.340 2738.570 ;
+        RECT 2560.740 2661.170 2622.625 2738.570 ;
+        RECT 2557.440 2660.930 2622.625 2661.170 ;
+        RECT 1869.540 2225.670 2622.625 2660.930 ;
+        RECT 1869.540 2147.790 1940.640 2225.670 ;
+        RECT 1943.040 2225.430 2017.440 2225.670 ;
+        RECT 1943.040 2148.030 1943.940 2225.430 ;
+        RECT 1946.340 2148.030 2017.440 2225.430 ;
+        RECT 1943.040 2147.790 2017.440 2148.030 ;
         RECT 2019.840 2225.430 2094.240 2225.670 ;
-        RECT 2019.840 2133.070 2020.740 2225.430 ;
-        RECT 2023.140 2133.070 2094.240 2225.430 ;
-        RECT 2019.840 2132.830 2094.240 2133.070 ;
+        RECT 2019.840 2148.030 2020.740 2225.430 ;
+        RECT 2023.140 2148.030 2094.240 2225.430 ;
+        RECT 2019.840 2147.790 2094.240 2148.030 ;
         RECT 2096.640 2225.430 2171.040 2225.670 ;
-        RECT 2096.640 2133.070 2097.540 2225.430 ;
-        RECT 2099.940 2133.070 2171.040 2225.430 ;
-        RECT 2096.640 2132.830 2171.040 2133.070 ;
+        RECT 2096.640 2148.030 2097.540 2225.430 ;
+        RECT 2099.940 2148.030 2171.040 2225.430 ;
+        RECT 2096.640 2147.790 2171.040 2148.030 ;
         RECT 2173.440 2225.430 2247.840 2225.670 ;
-        RECT 2173.440 2133.070 2174.340 2225.430 ;
-        RECT 2176.740 2133.070 2247.840 2225.430 ;
-        RECT 2173.440 2132.830 2247.840 2133.070 ;
+        RECT 2173.440 2148.030 2174.340 2225.430 ;
+        RECT 2176.740 2148.030 2247.840 2225.430 ;
+        RECT 2173.440 2147.790 2247.840 2148.030 ;
         RECT 2250.240 2225.430 2324.640 2225.670 ;
-        RECT 2250.240 2133.070 2251.140 2225.430 ;
-        RECT 2253.540 2133.070 2324.640 2225.430 ;
-        RECT 2250.240 2132.830 2324.640 2133.070 ;
+        RECT 2250.240 2148.030 2251.140 2225.430 ;
+        RECT 2253.540 2148.030 2324.640 2225.430 ;
+        RECT 2250.240 2147.790 2324.640 2148.030 ;
         RECT 2327.040 2225.430 2401.440 2225.670 ;
-        RECT 2327.040 2133.070 2327.940 2225.430 ;
-        RECT 2330.340 2133.070 2401.440 2225.430 ;
-        RECT 2327.040 2132.830 2401.440 2133.070 ;
+        RECT 2327.040 2148.030 2327.940 2225.430 ;
+        RECT 2330.340 2148.030 2401.440 2225.430 ;
+        RECT 2327.040 2147.790 2401.440 2148.030 ;
         RECT 2403.840 2225.430 2478.240 2225.670 ;
-        RECT 2403.840 2133.070 2404.740 2225.430 ;
-        RECT 2407.140 2133.070 2478.240 2225.430 ;
-        RECT 2403.840 2132.830 2478.240 2133.070 ;
+        RECT 2403.840 2148.030 2404.740 2225.430 ;
+        RECT 2407.140 2148.030 2478.240 2225.430 ;
+        RECT 2403.840 2147.790 2478.240 2148.030 ;
         RECT 2480.640 2225.430 2555.040 2225.670 ;
-        RECT 2480.640 2133.070 2481.540 2225.430 ;
-        RECT 2483.940 2133.070 2555.040 2225.430 ;
-        RECT 2480.640 2132.830 2555.040 2133.070 ;
-        RECT 2557.440 2225.430 2631.840 2225.670 ;
-        RECT 2557.440 2133.070 2558.340 2225.430 ;
-        RECT 2560.740 2133.070 2631.840 2225.430 ;
-        RECT 2557.440 2132.830 2631.840 2133.070 ;
-        RECT 2634.240 2225.430 2687.945 2225.670 ;
-        RECT 2634.240 2133.070 2635.140 2225.430 ;
-        RECT 2637.540 2133.070 2687.945 2225.430 ;
-        RECT 2634.240 2132.830 2687.945 2133.070 ;
-        RECT 1946.340 1712.530 2687.945 2132.830 ;
-        RECT 1946.340 1619.690 2017.440 1712.530 ;
+        RECT 2480.640 2148.030 2481.540 2225.430 ;
+        RECT 2483.940 2148.030 2555.040 2225.430 ;
+        RECT 2480.640 2147.790 2555.040 2148.030 ;
+        RECT 2557.440 2225.430 2622.625 2225.670 ;
+        RECT 2557.440 2148.030 2558.340 2225.430 ;
+        RECT 2560.740 2148.030 2622.625 2225.430 ;
+        RECT 2557.440 2147.790 2622.625 2148.030 ;
+        RECT 1869.540 1712.530 2622.625 2147.790 ;
+        RECT 1869.540 1634.650 1940.640 1712.530 ;
+        RECT 1943.040 1712.290 2017.440 1712.530 ;
+        RECT 1943.040 1634.890 1943.940 1712.290 ;
+        RECT 1946.340 1634.890 2017.440 1712.290 ;
+        RECT 1943.040 1634.650 2017.440 1634.890 ;
         RECT 2019.840 1712.290 2094.240 1712.530 ;
-        RECT 2019.840 1619.930 2020.740 1712.290 ;
-        RECT 2023.140 1619.930 2094.240 1712.290 ;
-        RECT 2019.840 1619.690 2094.240 1619.930 ;
+        RECT 2019.840 1634.890 2020.740 1712.290 ;
+        RECT 2023.140 1634.890 2094.240 1712.290 ;
+        RECT 2019.840 1634.650 2094.240 1634.890 ;
         RECT 2096.640 1712.290 2171.040 1712.530 ;
-        RECT 2096.640 1619.930 2097.540 1712.290 ;
-        RECT 2099.940 1619.930 2171.040 1712.290 ;
-        RECT 2096.640 1619.690 2171.040 1619.930 ;
+        RECT 2096.640 1634.890 2097.540 1712.290 ;
+        RECT 2099.940 1634.890 2171.040 1712.290 ;
+        RECT 2096.640 1634.650 2171.040 1634.890 ;
         RECT 2173.440 1712.290 2247.840 1712.530 ;
-        RECT 2173.440 1619.930 2174.340 1712.290 ;
-        RECT 2176.740 1619.930 2247.840 1712.290 ;
-        RECT 2173.440 1619.690 2247.840 1619.930 ;
+        RECT 2173.440 1634.890 2174.340 1712.290 ;
+        RECT 2176.740 1634.890 2247.840 1712.290 ;
+        RECT 2173.440 1634.650 2247.840 1634.890 ;
         RECT 2250.240 1712.290 2324.640 1712.530 ;
-        RECT 2250.240 1619.930 2251.140 1712.290 ;
-        RECT 2253.540 1619.930 2324.640 1712.290 ;
-        RECT 2250.240 1619.690 2324.640 1619.930 ;
+        RECT 2250.240 1634.890 2251.140 1712.290 ;
+        RECT 2253.540 1634.890 2324.640 1712.290 ;
+        RECT 2250.240 1634.650 2324.640 1634.890 ;
         RECT 2327.040 1712.290 2401.440 1712.530 ;
-        RECT 2327.040 1619.930 2327.940 1712.290 ;
-        RECT 2330.340 1619.930 2401.440 1712.290 ;
-        RECT 2327.040 1619.690 2401.440 1619.930 ;
+        RECT 2327.040 1634.890 2327.940 1712.290 ;
+        RECT 2330.340 1634.890 2401.440 1712.290 ;
+        RECT 2327.040 1634.650 2401.440 1634.890 ;
         RECT 2403.840 1712.290 2478.240 1712.530 ;
-        RECT 2403.840 1619.930 2404.740 1712.290 ;
-        RECT 2407.140 1619.930 2478.240 1712.290 ;
-        RECT 2403.840 1619.690 2478.240 1619.930 ;
+        RECT 2403.840 1634.890 2404.740 1712.290 ;
+        RECT 2407.140 1634.890 2478.240 1712.290 ;
+        RECT 2403.840 1634.650 2478.240 1634.890 ;
         RECT 2480.640 1712.290 2555.040 1712.530 ;
-        RECT 2480.640 1619.930 2481.540 1712.290 ;
-        RECT 2483.940 1619.930 2555.040 1712.290 ;
-        RECT 2480.640 1619.690 2555.040 1619.930 ;
-        RECT 2557.440 1712.290 2631.840 1712.530 ;
-        RECT 2557.440 1619.930 2558.340 1712.290 ;
-        RECT 2560.740 1619.930 2631.840 1712.290 ;
-        RECT 2557.440 1619.690 2631.840 1619.930 ;
-        RECT 2634.240 1712.290 2687.945 1712.530 ;
-        RECT 2634.240 1619.930 2635.140 1712.290 ;
-        RECT 2637.540 1619.930 2687.945 1712.290 ;
-        RECT 2634.240 1619.690 2687.945 1619.930 ;
-        RECT 1946.340 1199.390 2687.945 1619.690 ;
-        RECT 1946.340 1106.550 2017.440 1199.390 ;
+        RECT 2480.640 1634.890 2481.540 1712.290 ;
+        RECT 2483.940 1634.890 2555.040 1712.290 ;
+        RECT 2480.640 1634.650 2555.040 1634.890 ;
+        RECT 2557.440 1712.290 2622.625 1712.530 ;
+        RECT 2557.440 1634.890 2558.340 1712.290 ;
+        RECT 2560.740 1634.890 2622.625 1712.290 ;
+        RECT 2557.440 1634.650 2622.625 1634.890 ;
+        RECT 1869.540 1199.390 2622.625 1634.650 ;
+        RECT 1869.540 1121.510 1940.640 1199.390 ;
+        RECT 1943.040 1199.150 2017.440 1199.390 ;
+        RECT 1943.040 1121.750 1943.940 1199.150 ;
+        RECT 1946.340 1121.750 2017.440 1199.150 ;
+        RECT 1943.040 1121.510 2017.440 1121.750 ;
         RECT 2019.840 1199.150 2094.240 1199.390 ;
-        RECT 2019.840 1106.790 2020.740 1199.150 ;
-        RECT 2023.140 1106.790 2094.240 1199.150 ;
-        RECT 2019.840 1106.550 2094.240 1106.790 ;
+        RECT 2019.840 1121.750 2020.740 1199.150 ;
+        RECT 2023.140 1121.750 2094.240 1199.150 ;
+        RECT 2019.840 1121.510 2094.240 1121.750 ;
         RECT 2096.640 1199.150 2171.040 1199.390 ;
-        RECT 2096.640 1106.790 2097.540 1199.150 ;
-        RECT 2099.940 1106.790 2171.040 1199.150 ;
-        RECT 2096.640 1106.550 2171.040 1106.790 ;
+        RECT 2096.640 1121.750 2097.540 1199.150 ;
+        RECT 2099.940 1121.750 2171.040 1199.150 ;
+        RECT 2096.640 1121.510 2171.040 1121.750 ;
         RECT 2173.440 1199.150 2247.840 1199.390 ;
-        RECT 2173.440 1106.790 2174.340 1199.150 ;
-        RECT 2176.740 1106.790 2247.840 1199.150 ;
-        RECT 2173.440 1106.550 2247.840 1106.790 ;
+        RECT 2173.440 1121.750 2174.340 1199.150 ;
+        RECT 2176.740 1121.750 2247.840 1199.150 ;
+        RECT 2173.440 1121.510 2247.840 1121.750 ;
         RECT 2250.240 1199.150 2324.640 1199.390 ;
-        RECT 2250.240 1106.790 2251.140 1199.150 ;
-        RECT 2253.540 1106.790 2324.640 1199.150 ;
-        RECT 2250.240 1106.550 2324.640 1106.790 ;
+        RECT 2250.240 1121.750 2251.140 1199.150 ;
+        RECT 2253.540 1121.750 2324.640 1199.150 ;
+        RECT 2250.240 1121.510 2324.640 1121.750 ;
         RECT 2327.040 1199.150 2401.440 1199.390 ;
-        RECT 2327.040 1106.790 2327.940 1199.150 ;
-        RECT 2330.340 1106.790 2401.440 1199.150 ;
-        RECT 2327.040 1106.550 2401.440 1106.790 ;
+        RECT 2327.040 1121.750 2327.940 1199.150 ;
+        RECT 2330.340 1121.750 2401.440 1199.150 ;
+        RECT 2327.040 1121.510 2401.440 1121.750 ;
         RECT 2403.840 1199.150 2478.240 1199.390 ;
-        RECT 2403.840 1106.790 2404.740 1199.150 ;
-        RECT 2407.140 1106.790 2478.240 1199.150 ;
-        RECT 2403.840 1106.550 2478.240 1106.790 ;
+        RECT 2403.840 1121.750 2404.740 1199.150 ;
+        RECT 2407.140 1121.750 2478.240 1199.150 ;
+        RECT 2403.840 1121.510 2478.240 1121.750 ;
         RECT 2480.640 1199.150 2555.040 1199.390 ;
-        RECT 2480.640 1106.790 2481.540 1199.150 ;
-        RECT 2483.940 1106.790 2555.040 1199.150 ;
-        RECT 2480.640 1106.550 2555.040 1106.790 ;
-        RECT 2557.440 1199.150 2631.840 1199.390 ;
-        RECT 2557.440 1106.790 2558.340 1199.150 ;
-        RECT 2560.740 1106.790 2631.840 1199.150 ;
-        RECT 2557.440 1106.550 2631.840 1106.790 ;
-        RECT 2634.240 1199.150 2687.945 1199.390 ;
-        RECT 2634.240 1106.790 2635.140 1199.150 ;
-        RECT 2637.540 1106.790 2687.945 1199.150 ;
-        RECT 2634.240 1106.550 2687.945 1106.790 ;
-        RECT 1946.340 686.250 2687.945 1106.550 ;
-        RECT 1946.340 593.410 2017.440 686.250 ;
+        RECT 2480.640 1121.750 2481.540 1199.150 ;
+        RECT 2483.940 1121.750 2555.040 1199.150 ;
+        RECT 2480.640 1121.510 2555.040 1121.750 ;
+        RECT 2557.440 1199.150 2622.625 1199.390 ;
+        RECT 2557.440 1121.750 2558.340 1199.150 ;
+        RECT 2560.740 1121.750 2622.625 1199.150 ;
+        RECT 2557.440 1121.510 2622.625 1121.750 ;
+        RECT 1869.540 686.250 2622.625 1121.510 ;
+        RECT 1869.540 608.370 1940.640 686.250 ;
+        RECT 1943.040 686.010 2017.440 686.250 ;
+        RECT 1943.040 608.610 1943.940 686.010 ;
+        RECT 1946.340 608.610 2017.440 686.010 ;
+        RECT 1943.040 608.370 2017.440 608.610 ;
         RECT 2019.840 686.010 2094.240 686.250 ;
-        RECT 2019.840 593.650 2020.740 686.010 ;
-        RECT 2023.140 593.650 2094.240 686.010 ;
-        RECT 2019.840 593.410 2094.240 593.650 ;
+        RECT 2019.840 608.610 2020.740 686.010 ;
+        RECT 2023.140 608.610 2094.240 686.010 ;
+        RECT 2019.840 608.370 2094.240 608.610 ;
         RECT 2096.640 686.010 2171.040 686.250 ;
-        RECT 2096.640 593.650 2097.540 686.010 ;
-        RECT 2099.940 593.650 2171.040 686.010 ;
-        RECT 2096.640 593.410 2171.040 593.650 ;
+        RECT 2096.640 608.610 2097.540 686.010 ;
+        RECT 2099.940 608.610 2171.040 686.010 ;
+        RECT 2096.640 608.370 2171.040 608.610 ;
         RECT 2173.440 686.010 2247.840 686.250 ;
-        RECT 2173.440 593.650 2174.340 686.010 ;
-        RECT 2176.740 593.650 2247.840 686.010 ;
-        RECT 2173.440 593.410 2247.840 593.650 ;
+        RECT 2173.440 608.610 2174.340 686.010 ;
+        RECT 2176.740 608.610 2247.840 686.010 ;
+        RECT 2173.440 608.370 2247.840 608.610 ;
         RECT 2250.240 686.010 2324.640 686.250 ;
-        RECT 2250.240 593.650 2251.140 686.010 ;
-        RECT 2253.540 593.650 2324.640 686.010 ;
-        RECT 2250.240 593.410 2324.640 593.650 ;
+        RECT 2250.240 608.610 2251.140 686.010 ;
+        RECT 2253.540 608.610 2324.640 686.010 ;
+        RECT 2250.240 608.370 2324.640 608.610 ;
         RECT 2327.040 686.010 2401.440 686.250 ;
-        RECT 2327.040 593.650 2327.940 686.010 ;
-        RECT 2330.340 593.650 2401.440 686.010 ;
-        RECT 2327.040 593.410 2401.440 593.650 ;
+        RECT 2327.040 608.610 2327.940 686.010 ;
+        RECT 2330.340 608.610 2401.440 686.010 ;
+        RECT 2327.040 608.370 2401.440 608.610 ;
         RECT 2403.840 686.010 2478.240 686.250 ;
-        RECT 2403.840 593.650 2404.740 686.010 ;
-        RECT 2407.140 593.650 2478.240 686.010 ;
-        RECT 2403.840 593.410 2478.240 593.650 ;
+        RECT 2403.840 608.610 2404.740 686.010 ;
+        RECT 2407.140 608.610 2478.240 686.010 ;
+        RECT 2403.840 608.370 2478.240 608.610 ;
         RECT 2480.640 686.010 2555.040 686.250 ;
-        RECT 2480.640 593.650 2481.540 686.010 ;
-        RECT 2483.940 593.650 2555.040 686.010 ;
-        RECT 2480.640 593.410 2555.040 593.650 ;
-        RECT 2557.440 686.010 2631.840 686.250 ;
-        RECT 2557.440 593.650 2558.340 686.010 ;
-        RECT 2560.740 593.650 2631.840 686.010 ;
-        RECT 2557.440 593.410 2631.840 593.650 ;
-        RECT 2634.240 686.010 2687.945 686.250 ;
-        RECT 2634.240 593.650 2635.140 686.010 ;
-        RECT 2637.540 593.650 2687.945 686.010 ;
-        RECT 2634.240 593.410 2687.945 593.650 ;
-        RECT 1946.340 173.110 2687.945 593.410 ;
-        RECT 1946.340 17.175 2017.440 173.110 ;
+        RECT 2480.640 608.610 2481.540 686.010 ;
+        RECT 2483.940 608.610 2555.040 686.010 ;
+        RECT 2480.640 608.370 2555.040 608.610 ;
+        RECT 2557.440 686.010 2622.625 686.250 ;
+        RECT 2557.440 608.610 2558.340 686.010 ;
+        RECT 2560.740 608.610 2622.625 686.010 ;
+        RECT 2557.440 608.370 2622.625 608.610 ;
+        RECT 1869.540 173.110 2622.625 608.370 ;
+        RECT 1869.540 15.815 1940.640 173.110 ;
+        RECT 1943.040 172.870 2017.440 173.110 ;
+        RECT 1943.040 15.815 1943.940 172.870 ;
+        RECT 1946.340 15.815 2017.440 172.870 ;
         RECT 2019.840 172.870 2094.240 173.110 ;
-        RECT 2019.840 17.175 2020.740 172.870 ;
-        RECT 2023.140 17.175 2094.240 172.870 ;
+        RECT 2019.840 15.815 2020.740 172.870 ;
+        RECT 2023.140 15.815 2094.240 172.870 ;
         RECT 2096.640 172.870 2171.040 173.110 ;
-        RECT 2096.640 17.175 2097.540 172.870 ;
-        RECT 2099.940 17.175 2171.040 172.870 ;
+        RECT 2096.640 15.815 2097.540 172.870 ;
+        RECT 2099.940 15.815 2171.040 172.870 ;
         RECT 2173.440 172.870 2247.840 173.110 ;
-        RECT 2173.440 17.175 2174.340 172.870 ;
-        RECT 2176.740 17.175 2247.840 172.870 ;
+        RECT 2173.440 15.815 2174.340 172.870 ;
+        RECT 2176.740 15.815 2247.840 172.870 ;
         RECT 2250.240 172.870 2324.640 173.110 ;
-        RECT 2250.240 17.175 2251.140 172.870 ;
-        RECT 2253.540 17.175 2324.640 172.870 ;
+        RECT 2250.240 15.815 2251.140 172.870 ;
+        RECT 2253.540 15.815 2324.640 172.870 ;
         RECT 2327.040 172.870 2401.440 173.110 ;
-        RECT 2327.040 17.175 2327.940 172.870 ;
-        RECT 2330.340 17.175 2401.440 172.870 ;
+        RECT 2327.040 15.815 2327.940 172.870 ;
+        RECT 2330.340 15.815 2401.440 172.870 ;
         RECT 2403.840 172.870 2478.240 173.110 ;
-        RECT 2403.840 17.175 2404.740 172.870 ;
-        RECT 2407.140 17.175 2478.240 172.870 ;
+        RECT 2403.840 15.815 2404.740 172.870 ;
+        RECT 2407.140 15.815 2478.240 172.870 ;
         RECT 2480.640 172.870 2555.040 173.110 ;
-        RECT 2480.640 17.175 2481.540 172.870 ;
-        RECT 2483.940 17.175 2555.040 172.870 ;
-        RECT 2557.440 172.870 2631.840 173.110 ;
-        RECT 2557.440 17.175 2558.340 172.870 ;
-        RECT 2560.740 17.175 2631.840 172.870 ;
-        RECT 2634.240 172.870 2687.945 173.110 ;
-        RECT 2634.240 17.175 2635.140 172.870 ;
-        RECT 2637.540 17.175 2687.945 172.870 ;
+        RECT 2480.640 15.815 2481.540 172.870 ;
+        RECT 2483.940 15.815 2555.040 172.870 ;
+        RECT 2557.440 172.870 2622.625 173.110 ;
+        RECT 2557.440 15.815 2558.340 172.870 ;
+        RECT 2560.740 15.815 2622.625 172.870 ;
   END
 END top_level_bASIC
 END LIBRARY
